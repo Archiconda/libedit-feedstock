@@ -25,6 +25,7 @@ requirements:
     - autoconf
     - perl
     - {{ compiler('c') }}
+    - make
   host:
     - m4
     - ncurses
